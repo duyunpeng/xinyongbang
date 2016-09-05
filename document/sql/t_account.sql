@@ -1,0 +1,1 @@
+INSERT INTO `t_account` VALUES ('4028818253fad33f0153faebe0c60006', 15, '2016-4-14 09:40:41', 'admin', '5a673393fef21e3e3cc5c8873011bc77', '85e50f3fb78eae134266b51a671b8dea', '127.0.0.1', '2016-4-15 11:30:34', 'PC', '4028818253faa2ce0153facfe71e0000', '297e72cb5414144e01541492fb000000', 1, 'admin@xinyongbang.com');

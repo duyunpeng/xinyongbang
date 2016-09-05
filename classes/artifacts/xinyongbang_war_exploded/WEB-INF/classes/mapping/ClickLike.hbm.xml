@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping default-access="field">
+    <class name="xinyongbang.domain.model.clicklike.ClickLike" table="t_click_like" lazy="true">
+        <id name="id" type="java.lang.String" column="id" unsaved-value="null" length="32">
+            <generator class="uuid"/>
+        </id>
+
+        <version column="version" name="version" type="java.lang.Integer"/>
+
+        <property name="createDate" column="create_date" type="java.util.Date"/>
+        <many-to-one name="user" column="user_id" class="xinyongbang.domain.model.user.User"/>
+
+        <many-to-one name="clickUser" column="click_user_id" class="xinyongbang.domain.model.user.User"/>
+    </class>
+</hibernate-mapping>

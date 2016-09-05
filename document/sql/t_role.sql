@@ -1,0 +1,1 @@
+INSERT INTO `t_role` VALUES ('4028818253fad33f0153fae4d5510004', 1, '2016-4-9 20:00:14', 'admin', '管理员角色', '4028818253faa2ce0153facfe71e0000', 1);
